@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSV Reader</title>
+    </head>
+    <body>
+        <input type="file" id="csv-file-input" onchange="handleFiles(this.files)" accept=".csv" style="display: none">
+        <input type="button" value="Browse..." onclick="document.getElementById('csv-file-input').click();" />
+    </body>
+    <script src="js/scripts.js"></script>
+</html>
